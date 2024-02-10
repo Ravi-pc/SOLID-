@@ -66,7 +66,7 @@ class Square(Shape):
     def calculate_area(self):
         return self.side ** 2
 
-# Liskov Substitution Principle
+# 3. Liskov Substitution Principle
 # The Liskov Substitution Principle states that subclasses should be substitutable
 # for their base classes.
 
@@ -86,7 +86,7 @@ class Ostrich(Bird):
         print("Ostrich cannot fly")
 
 
-# Interface Segregation Principle
+# 4. Interface Segregation Principle
 # Segregation means keeping things separated, and the Interface Segregation Principle is
 # about separating the interfaces.
 # The principle states that many client-specific interfaces are better than
